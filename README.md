@@ -12,7 +12,7 @@ pacman -Sy tmux
 
 tmux
 
-pcstrap /mnt base linux
+pacstrap /mnt base linux
 
 ## Create another window with Ctrl + b and "
 
