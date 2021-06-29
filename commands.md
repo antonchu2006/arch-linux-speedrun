@@ -1,5 +1,5 @@
 # This are the commands used in this video
-# https://www.youtube.com/watch?v=8utpbbdj0LQ
+## https://www.youtube.com/watch?v=8utpbbdj0LQ
 
 ```bash
 cfdisk # select dos and create a single partition
