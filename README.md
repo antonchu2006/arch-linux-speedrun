@@ -16,5 +16,5 @@ pacstrap /mnt base linux
 
 ## Create another window with Ctrl + b and "
 
-genfstab /mnt>/mnt&etc/fstab;arch-chroot /mnt bash -c 'pacman -Sy grub;grub-install /dev/sda;grub-mkconfig -o /boot/grub/grub.cfg';reboot
+genfstab /mnt>/mnt/etc/fstab;arch-chroot /mnt bash -c 'pacman -Sy grub;grub-install /dev/sda;grub-mkconfig -o /boot/grub/grub.cfg';reboot
 ```
