@@ -8,7 +8,7 @@ mkfs.xfs /dev/sda1
 
 mount /dev/sda1 /mnt
 
-pcman -Sy tmux
+pacman -Sy tmux
 
 tmux
 
